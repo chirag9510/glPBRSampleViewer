@@ -1,7 +1,7 @@
 # glPBRSampleViewer
 ![img1](https://github.com/chirag9510/glPBRSampleViewer/assets/78268919/9a5ba486-8906-4c59-8357-7bc5228d9b01)
 
-PBR + IBL based gltf viewer in OpenGL 4.6. Also generates Pre filtered enviornments maps for diffuse and specular IBL as well as generates cubemaps for skybox from spherical HDR image.\
+PBR + IBL based gltf viewer in OpenGL 4.6. Also generates Pre filtered enviornments maps for diffuse and specular IBL as well as generates cubemaps for skybox from spherical HDR maps.\
 \
 Use the **"Display"** drop down menu on the top left corner to interact which will also show you the controls.\
 \
