@@ -25,7 +25,7 @@ If you wish to change application settings such as window resolution, enabling f
 MSAA samples are set to 8 which can hinder performance on a slow machine, so either disable MSAA or change the "Samples" var in data.json.\
 Also, please only use gltf models as well as 1k resolution HDRi maps for consistent performance. If you want to add your own models and HDR maps, just add thier names in the sequence displayed in the **data.json** file.
 
-![]([./img/appdemo.mp4](https://github.com/chirag9510/glPBRSampleViewer/blob/master/img/appdemo.mp4))
+https://github.com/chirag9510/glPBRSampleViewer/assets/78268919/1c0c9c29-c7cb-42f5-bafa-1efb34bad879
 
 # More Screenshots
 ![1](./img/1.png)
