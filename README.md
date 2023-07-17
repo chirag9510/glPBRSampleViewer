@@ -9,7 +9,7 @@ You can just directly download the exe from the release section if you dont wish
 
 # Rendering Features
 * PBR Cook-Torrance Microfacet specular BRDF (Lambertian diffuse BRDF + F(Schlick)* D(GGX) * G(Smith)G1(Schlick_GGX)) 
-* Importance sampling and Halton low discrepancy sequence for generating diffuse and specular pre filtered enviornment maps for IBL
+* Importance sampling and Halton low discrepancy sequence for generating diffuse and specular pre filtered enviornment maps for IBL.\
   [Special thanks to the GSN Composer youtube channel for these PBR and IBL topics](https://www.youtube.com/@gsn-composer).
   
 * Direct Drawing with texture arrays (Avoided indirect drawing with glMultiDrawElementsIndirect() since that would require bindless textures and many systems dont support that)
