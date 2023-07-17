@@ -40,5 +40,5 @@ https://github.com/chirag9510/glPBRSampleViewer/assets/78268919/7b4ca20b-2bd8-42
 # References
 * [GSN Composer Youtube Channel](https://www.youtube.com/@gsn-composer) and thier Shaders Monthly series of videos specifically on the PBR and IBL topics.
 * [glTF-Sample-Viewer](https://github.com/KhronosGroup/glTF-Sample-Viewer) for Spherical Map to Cubemap conversion shader fundamentals.
-* [KhronosGroup/glTF-Sample-Models](https://github.com/KhronosGroup/glTF-Sample-Models) and [Poly Haven](https://polyhaven.com/) for the GLTF models.
+* [KhronosGroup/glTF-Sample-Models](https://github.com/KhronosGroup/glTF-Sample-Models) and [Poly Haven](https://polyhaven.com/) for the GLTF models and HDR maps.
 * Also **Libraries** used Assimp, glm, glew, imgui, JSON, spdlog, stb_image, SDL2.
