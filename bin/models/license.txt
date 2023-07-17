@@ -1,0 +1,11 @@
+Model Information:
+* title:	Snow-Globe
+* source:	https://sketchfab.com/3d-models/snow-globe-bb79d86e48f84236a5a2bd1688a59949
+* author:	kand8998 (https://sketchfab.com/KaitlynAndrus)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Snow-Globe" (https://sketchfab.com/3d-models/snow-globe-bb79d86e48f84236a5a2bd1688a59949) by kand8998 (https://sketchfab.com/KaitlynAndrus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

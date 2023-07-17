@@ -1,0 +1,313 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v3.3.32",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "blend_export",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "lubricant_spray_pipe"
+    },
+    {
+      "mesh": 1,
+      "name": "lubricant_spray_tape"
+    },
+    {
+      "mesh": 2,
+      "name": "lubricant_spray_tin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "lubricant_spray",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder.027",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.006",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cylinder.025",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "lubricant_spray_nor_gl",
+      "uri": "textures/lubricant_spray_nor_gl_2k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "lubricant_spray_diff",
+      "uri": "textures/lubricant_spray_diff_2k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "lubricant_spray_metal-lubricant_spray_rough",
+      "uri": "textures/lubricant_spray_arm_2k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 284,
+      "max": [
+        0.0342274084687233,
+        0.13182668387889862,
+        0.008553528226912022
+      ],
+      "min": [
+        0.03157421201467514,
+        0.018931029364466667,
+        -0.011623279191553593
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 284,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 284,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 1092,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 468,
+      "max": [
+        0.034690529108047485,
+        0.10689274966716766,
+        0.031548965722322464
+      ],
+      "min": [
+        0.00820191204547882,
+        0.06889639794826508,
+        -0.029371390119194984
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 468,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 468,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 2082,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 2960,
+      "max": [
+        0.032295677810907364,
+        0.1648811548948288,
+        0.03229549899697304
+      ],
+      "min": [
+        -0.03229532018303871,
+        0,
+        -0.03229549899697304
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 2960,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 2960,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 13254,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3408,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3408,
+      "byteOffset": 3408,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2272,
+      "byteOffset": 6816,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2184,
+      "byteOffset": 9088,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5616,
+      "byteOffset": 11272,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5616,
+      "byteOffset": 16888,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3744,
+      "byteOffset": 22504,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4164,
+      "byteOffset": 26248,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 35520,
+      "byteOffset": 30412,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 35520,
+      "byteOffset": 65932,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23680,
+      "byteOffset": 101452,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 26508,
+      "byteOffset": 125132,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 151640,
+      "uri": "lubricant_spray.bin"
+    }
+  ]
+}

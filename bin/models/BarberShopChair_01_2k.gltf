@@ -1,0 +1,155 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.6.16",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "BarberShopChair_01"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "BarberShopChair_01",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh.005",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "BarberShopChair_01_nor_gl",
+      "uri": "textures/BarberShopChair_01_nor_gl_2k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "BarberShopChair_01_diff",
+      "uri": "textures/BarberShopChair_01_diff_2k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "BarberShopChair_01_arm.png",
+      "uri": "textures/BarberShopChair_01_arm_2k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 7587,
+      "max": [
+        0.3628672659397125,
+        1.489005208015442,
+        0.8857696652412415
+      ],
+      "min": [
+        -0.39364826679229736,
+        -5.504142563950154e-8,
+        -0.4421367347240448
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7587,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7587,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 12840,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 91044,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 91044,
+      "byteOffset": 91044
+    },
+    {
+      "buffer": 0,
+      "byteLength": 60696,
+      "byteOffset": 182088
+    },
+    {
+      "buffer": 0,
+      "byteLength": 25680,
+      "byteOffset": 242784
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 268464,
+      "uri": "BarberShopChair_01.bin"
+    }
+  ]
+}

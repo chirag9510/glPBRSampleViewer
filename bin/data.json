@@ -1,0 +1,174 @@
+{
+	"WndWidth":1280,
+	"WndHeight":720,
+	"Fullscreen":false,
+	"FOV":65.0,
+	"Far":200.0,
+	"Near":0.01,
+	"MultiSample":true,
+	"Samples":8,
+	"LocalDir":"./",
+	"ShaderDir":"shaders/",
+	"HDRIDir":"hdri/",
+	"ModelDir":"models/",
+	"HDRIs":[
+		"brown_photostudio_02_1k",
+		"outdoor_umbrellas_1k",
+		"shanghai_bund_1k",
+		"birchwood_1k",
+		"rooitou_park_1k",
+		"castel_st_angelo_roof_1k",
+		"circus_arena_1k",
+		"courtyard_night_1k",
+		"dikhololo_night_1k",
+		"fireplace_1k",
+		"industrial_workshop_foundry_1k",
+		"lakes_1k",
+		"lauter_waterfall_1k",
+		"moonless_golf_1k",
+		"moonlit_golf_1k",
+		"moulton_falls_train_tunnel_east_1k",
+		"piazza_bologni_1k",
+		"pool_1k",
+		"potsdamer_platz_1k",
+		"preller_drive_1k",
+		"pretville_cinema_1k",
+		"rooftop_night_1k",
+		"royal_esplanade_1k",
+		"small_cathedral_02_1k",
+		"snowy_field_1k",
+		"sunset_fairway_1k",
+		"theater_01_1k",
+		"umhlanga_sunrise_1k",
+		"viale_giuseppe_garibaldi_1k",
+		"winter_evening_1k"
+	],
+	"Models":[
+		{
+			"name":"DamagedHelmet",
+			"camRadius":2.7,
+			"camTarget":[0.0, 0.0, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":4.0
+		},
+		{
+			"name":"FlightHelmet",
+			"camRadius":1.0,
+			"camTarget":[0.0, 0.35, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":3.0
+		},
+		{
+			"name":"BoomBox",
+			"camRadius":0.035,
+			"camTarget":[0.0, 0.0, 0.0],
+			"camRotSens":0.25,
+			"camZoomSens":0.1
+		},
+		{
+			"name":"antique_katana_01_2k",
+			"camRadius":1.0,
+			"camTarget":[0.0, 0.165, 0.0],
+			"camRotSens":0.25,
+			"camZoomSens":3.0
+		},
+		{
+			"name":"BarberShopChair_01_2k",
+			"camRadius":1.9,
+			"camTarget":[0.0, 0.650, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":2.8
+		},
+		{
+			"name":"brass_pan_01_2k",
+			"camRadius":0.35,
+			"camTarget":[0.0, 0.0, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":1.6
+		},
+		{
+			"name":"brass_vase_03_2k",
+			"camRadius":0.35,
+			"camTarget":[0.0, 0.101, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":1.4
+		},
+		{
+			"name":"CoffeeCart_01_2k",
+			"camRadius":2.5,
+			"camTarget":[0.0, 0.84, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":4.0
+		},
+		{
+			"name":"Drill_01_2k",
+			"camRadius":0.3,
+			"camTarget":[0.0, 0.101, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":1.0
+		},
+		{
+			"name":"horse_statue_01_2k",
+			"camRadius":0.309,
+			"camTarget":[0.0, 0.098, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":1.0
+		},
+		{
+			"name":"lightbulb_led_2k",
+			"camRadius":0.245,
+			"camTarget":[0.0, 0.034, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":0.8
+		},
+		{
+			"name":"lubricant_spray_2k",
+			"camRadius":0.274,
+			"camTarget":[0.0, 0.079, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":0.8
+		},
+		{
+			"name":"potted_plant_02_2k",
+			"camRadius":0.95,
+			"camTarget":[0.0, 0.340, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":3.0
+		},
+		{
+			"name":"ratchet_wrench_2k",
+			"camRadius":0.325,
+			"camTarget":[0.0, 0.0, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":1.5
+		},
+		{
+			"name":"tea_set_01_2k",
+			"camRadius":0.75,
+			"camTarget":[0.0, 0.0, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":1.5
+		},
+		{
+			"name":"Television_01_2k",
+			"camRadius":1.0,
+			"camTarget":[0.0, 0.250, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":1.9
+		},
+		{
+			"name":"treasure_chest_2k",
+			"camRadius":1.35,
+			"camTarget":[0.0, 0.250, 0.0],
+			"camRotSens":0.25,
+			"camZoomSens":2.0
+		},
+		{
+			"name":"snow_globe",
+			"camRadius":2.75,
+			"camTarget":[0.0, -0.176, 0.0],
+			"camRotSens":0.3,
+			"camZoomSens":3.0
+		}
+	]
+}
