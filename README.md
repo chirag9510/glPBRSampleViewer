@@ -20,6 +20,7 @@ You can just directly run the compiled exe by downloading the **glPBRSampleViewe
 
 ![channels](https://github.com/chirag9510/glPBRSampleViewer/assets/78268919/c85b32e0-f4aa-498e-ad9c-5e376280de4f)
 
+## Application Settings
 If you wish to change application settings such as window resolution, enabling fullscreen or enabling multisampling etc., just open the **data.json** file and directly change the first few variable values.\
 MSAA samples are set to 8 which can hinder performance on a slow machine, so either disable MSAA or change the "Samples" var in data.json.\
 Also, please only use gltf models as well as 1k resolution HDRi maps for consistent performance. If you want to add your own models and HDR maps. Just add thier names in the sequence displayed in the **data.json** file.
