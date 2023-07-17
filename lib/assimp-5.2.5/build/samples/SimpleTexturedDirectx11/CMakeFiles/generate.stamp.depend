@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Libraries/assimp-5.2.5/cmake-modules/FindDirectX.cmake
+C:/Libraries/assimp-5.2.5/cmake-modules/FindPkgMacros.cmake
+C:/Libraries/assimp-5.2.5/samples/SimpleTexturedDirectx11/CMakeLists.txt

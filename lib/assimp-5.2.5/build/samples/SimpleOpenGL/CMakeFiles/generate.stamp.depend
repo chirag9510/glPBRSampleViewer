@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Libraries/assimp-5.2.5/samples/SimpleOpenGL/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindGLUT.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake
