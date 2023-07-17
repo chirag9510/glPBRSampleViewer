@@ -1,0 +1,71 @@
+﻿{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "windows-base",
+            "hidden": true,
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "installDir": "${sourceDir}/out/install/${presetName}",
+          "cacheVariables": {
+            "CMAKE_C_COMPILER": "cl.exe",
+            "CMAKE_CXX_COMPILER": "cl.exe",
+            "GLEW_ROOT": "${sourceDir}/lib/glew-2.1.0",
+            "GLEW_INCLUDE_DIR": "${sourceDir}/lib/glew-2.1.0/include",
+            "SDL2_INCLUDE_DIR": "${sourceDir}/lib/SDL2-2.0.22/include",
+            "GLM_INCLUDE_DIR": "${sourceDir}/lib/glm",
+            "SPDLOG_INCLUDE_DIR": "${sourceDir}/lib/spdlog-1.10.0/include",
+            "ASSIMP_INCLUDE_DIR": "${sourceDir}/lib/assimp-5.2.5\\include;${sourceDir}\\lib\\assimp-5.2.5\\build\\include",
+            "STB_IMAGE_H": "${sourceDir}/lib/stb-master",
+            "JSON_H": "${sourceDir}/lib/json"
+          },
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            }
+        },
+        {
+            "name": "x64-debug",
+            "displayName": "x64 Debug",
+            "inherits": "windows-base",
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "x64-release",
+            "displayName": "x64 Release",
+            "inherits": "x64-debug",
+          "cacheVariables": {
+            "CMAKE_BUILD_TYPE": "Release",
+            "SDL2_LIBRARY": "${sourceDir}/lib/SDL2-2.0.22/lib/x64/SDL2main.lib;${sourceDir}/lib/SDL2-2.0.22/lib/x64/SDL2.lib",
+            "ASSIMP_LIBRARY": "${sourceDir}\\lib\\assimp-5.2.5\\build\\lib\\Release\\assimp-vc143-mt.lib"
+          }
+        },
+        {
+            "name": "x86-debug",
+            "displayName": "x86 Debug",
+            "inherits": "windows-base",
+            "architecture": {
+                "value": "x86",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "x86-release",
+            "displayName": "x86 Release",
+            "inherits": "x86-debug",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        }
+    ]
+}
